@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 100%;
+            height: 100%;
+        }
+        tr, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        thead {
+            background-color: rgb(250, 175, 0);
+        }
+        tbody {
+            background-color: rgb(0, 0, 0);
+        }
+        tfoot {
+            background-color: rgb(250, 137, 0);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col" id="header-name">NAME</th>
+                <th scope="col" id="header-id">ID</th>
+                <th scope="col" id="header-six">SIX</th>
+                <th scope="col" id="header-bod">BOD</th>
+                <th>ADDRESS</TH>
+            </tr>
+        </thead>
+        <tbody Style="color: rgb(255, 255, 255);">
+            <tr>
+                <td headers="header-name">FAVID</td>
+                <td headers="header-id">002256</td>
+                <td headers="header-six">M</td>
+                <td headers="header-bod">12/12/2007</td>
+                <td headers="header-address">ADDRESS</td>
+            </tr>
+            <tr>
+                <td headers="header-name">SOKLY</td>
+                <td headers="header-id">0011255</td>
+                <td headers="header-six">F</td>
+                <td headers="header-bod">12/12/2009</td>
+                <td headers="header-address">AUB</td>
+            </tr>
+            <tr>    
+                <td headers="header-name"   >KIRI</td>
+                <td headers="header-id">0011261</td>
+                <td headers="header-six">M</td>
+                <td headers="header-bod">12/12/2007</td>
+                <td headers="header-address">AUB</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>TOTAL</td>
+                <td>3 ID</td>
+                <td>3 NAME</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
